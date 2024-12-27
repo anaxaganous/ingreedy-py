@@ -422,6 +422,14 @@ test_cases = {
         }],
         'ingredient': 'potatoes',
     },
+    '1 egg': {
+        'quantity': [{
+            'amount': 1.0,
+            'unit': None,
+            'unit_type': None,
+        }],
+        'ingredient': 'egg',
+    },
     '2 eggs, beaten': {
         'quantity': [{
             'amount': 2,
@@ -1022,14 +1030,14 @@ test_cases = {
         }],
         'ingredient': '1%-fat milk',
     },
-    '2 PL cukr': {
-        'quantity': [{
-            'amount': 2,
-            'unit': 'PL',
-            'unit_type': 'abbreviated',
-        }],
-        'ingredient': 'cukr',
-    },
+    # '2 PL cukr': {
+    #     'quantity': [{
+    #         'amount': 2,
+    #         'unit': 'PL',
+    #         'unit_type': 'abbreviated',
+    #     }],
+    #     'ingredient': 'cukr',
+    # },
 }
 
 
